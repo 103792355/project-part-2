@@ -22,6 +22,11 @@ include 'nav.inc';
                 This project is an extension of Part 1, integrating server-side data processing and 
                 database management to create a complete and professional recruitment system.
             </p>
+            <p>
+                <strong>Group:</strong> Group 8<br>
+                <strong>Unit:</strong> COS10026<br>
+                <strong>Tutor:</strong> Vu Ngoc Binh
+            </p>
         </section>
 
         <section class="team-section">
@@ -30,10 +35,12 @@ include 'nav.inc';
             <div class="team-grid">
                 <div class="team-member">
                     <div class="member-avatar">👨‍💻</div>
-                    <h4>John Smith</h4>
-                    <p class="member-id">Student ID: 123456789</p>
+                    <h4>Pham Hai Duong</h4>
+                    <p class="member-id">Student ID: 103792355</p>
                     <p class="member-role">Team Leader & Backend Developer</p>
                     <div class="member-contributions">
+                        <h5>Profile:</h5>
+                        <p>Hanoi, likes reading</p>
                         <h5>Contributions:</h5>
                         <ul>
                             <li>Database structure design</li>
@@ -41,15 +48,19 @@ include 'nav.inc';
                             <li>Built management system (manage.php)</li>
                             <li>Integrated database connection and settings</li>
                         </ul>
+                        <h5>Contact:</h5>
+                        <p>Phone: 0362406812</p>
                     </div>
                 </div>
 
                 <div class="team-member">
-                    <div class="member-avatar">👩‍💻</div>
-                    <h4>Emily Johnson</h4>
-                    <p class="member-id">Student ID: 987654321</p>
+                    <div class="member-avatar">👨‍💻</div>
+                    <h4>Doan Viet Anh</h4>
+                    <p class="member-id">Student ID: 106202446</p>
                     <p class="member-role">Frontend Developer & UI/UX Designer</p>
                     <div class="member-contributions">
+                        <h5>Profile:</h5>
+                        <p>Hanoi, likes football, reading books, playing games</p>
                         <h5>Contributions:</h5>
                         <ul>
                             <li>User interface design (UI/UX)</li>
@@ -57,38 +68,29 @@ include 'nav.inc';
                             <li>Created HTML/PHP pages (index, jobs, apply)</li>
                             <li>Optimized user experience</li>
                         </ul>
+                        <h5>Contact:</h5>
+                        <p>Phone: 0834085607</p>
                     </div>
                 </div>
 
                 <div class="team-member">
                     <div class="member-avatar">👨‍💼</div>
-                    <h4>Michael Brown</h4>
-                    <p class="member-id">Student ID: 456789123</p>
-                    <p class="member-role">Full Stack Developer</p>
+                    <h4>Nguyen Tuan Minh</h4>
+                    <p class="member-id">Student ID: 103532548</p>
+                    <p class="member-role">Full Stack Developer & QA</p>
                     <div class="member-contributions">
+                        <h5>Profile:</h5>
+                        <p>Hanoi, likes sport, playing games</p>
                         <h5>Contributions:</h5>
                         <ul>
                             <li>Developed dynamic features for jobs.php</li>
                             <li>Built form validation (client and server-side)</li>
                             <li>Created enhancement features</li>
                             <li>Testing and bug fixing</li>
+                            <li>Quality assurance and documentation</li>
                         </ul>
-                    </div>
-                </div>
-
-                <div class="team-member">
-                    <div class="member-avatar">👩‍🎓</div>
-                    <h4>Sarah Davis</h4>
-                    <p class="member-id">Student ID: 321654987</p>
-                    <p class="member-role">Database Administrator & QA</p>
-                    <div class="member-contributions">
-                        <h5>Contributions:</h5>
-                        <ul>
-                            <li>Designed and optimized database schema</li>
-                            <li>Wrote queries and stored procedures</li>
-                            <li>Quality assurance and testing</li>
-                            <li>Project documentation</li>
-                        </ul>
+                        <h5>Contact:</h5>
+                        <p>Phone: 0988138303</p>
                     </div>
                 </div>
             </div>
@@ -121,12 +123,13 @@ include 'nav.inc';
         </section>
 
         <section class="contact-section">
-            <h3>Contact</h3>
-            <p>If you have any questions about the project, please contact us:</p>
+            <h3>Contact Information</h3>
+            <p>If you have any questions about the project, please contact our team members:</p>
             <ul class="contact-info">
-                <li>📧 Email: <a href="mailto:team@techportal.com">team@techportal.com</a></li>
-                <li>🌐 Website: <a href="https://techportal.com">techportal.com</a></li>
-                <li>📱 Phone: +1 (555) 123-4567</li>
+                <li>📧 Group Email: <a href="mailto:group8.cos10026@example.com">group8.cos10026@example.com</a></li>
+                <li>👨‍💻 Pham Hai Duong (Leader): 0362406812</li>
+                <li>👨‍💻 Doan Viet Anh: 0834085607</li>
+                <li>👨‍💼 Nguyen Tuan Minh: 0988138303</li>
             </ul>
         </section>
     </div>
