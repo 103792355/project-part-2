@@ -1,0 +1,57 @@
+# Tech Job Portal - Apache Configuration
+
+# Enable URL Rewriting
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /project2/
+    
+    # Prevent direct access to .inc files
+    RewriteRule ^.*\.inc$ - [F,L]
+    
+    # Prevent direct access to settings.php
+    RewriteCond %{THE_REQUEST} settings\.php
+    RewriteRule ^settings\.php$ / [R=301,L]
+</IfModule>
+
+# Disable directory browsing
+Options -Indexes
+
+# Set default index files
+DirectoryIndex index.php index.html
+
+# PHP Configuration
+<IfModule mod_php7.c>
+    php_value upload_max_filesize 10M
+    php_value post_max_size 10M
+    php_value max_execution_time 300
+    php_value max_input_time 300
+</IfModule>
+
+# Security Headers
+<IfModule mod_headers.c>
+    # Prevent clickjacking
+    Header set X-Frame-Options "SAMEORIGIN"
+    
+    # Prevent MIME sniffing
+    Header set X-Content-Type-Options "nosniff"
+    
+    # Enable XSS protection
+    Header set X-XSS-Protection "1; mode=block"
+</IfModule>
+
+# Error Pages
+ErrorDocument 404 /project2/index.php
+ErrorDocument 403 /project2/index.php
+
+# Protect sensitive files
+<FilesMatch "(settings\.php|\.htaccess|README\.md)$">
+    Order Allow,Deny
+    Deny from all
+</FilesMatch>
+
+# Allow access to settings.php only from PHP includes
+<Files "settings.php">
+    Order Deny,Allow
+    Deny from all
+</Files>
+
