@@ -60,21 +60,21 @@ CREATE TABLE IF NOT EXISTS jobs (
 -- Sample Data: Jobs
 -- ================================================
 INSERT INTO jobs (job_reference, job_title, company_name, location, salary_range, job_type, description, requirements, responsibilities, benefits, posted_date, closing_date, status) VALUES
-('WD001', 'Senior Web Developer', 'TechViet Solutions', 'Hanoi, Vietnam', '$25,000 - $35,000 per year', 'Full-time', 
+('WD001', 'Senior Web Developer', 'Group 8', 'Hanoi, Vietnam', '$25,000 - $35,000 per year', 'Full-time', 
 'We are looking for an experienced Senior Web Developer to join our product development team.', 
 'At least 3 years of experience with PHP, MySQL, JavaScript. Experience with Laravel, Vue.js is an advantage. Good teamwork skills required.',
  'Develop and maintain web applications. Work with the team to design and implement new features. Code review and mentor junior developers.', 
 'Competitive salary, Full insurance, Annual travel, Dynamic working environment', 
 CURDATE(), DATE_ADD(CURDATE(), INTERVAL 30 DAY), 'Active'),
 
-('FS002', 'Full Stack Developer', 'Digital Innovation Corp', 'Ho Chi Minh City, Vietnam', '$20,000 - $30,000 per year', 'Full-time', 
+('FS002', 'Full Stack Developer', 'Group 8', 'Ho Chi Minh City, Vietnam', '$20,000 - $30,000 per year', 'Full-time', 
 'Join us in developing web applications from front-end to back-end. Work in an Agile environment with modern technologies.', 
 '2+ years of Full Stack experience. Proficient in React, Node.js, Express, MongoDB. Knowledge of RESTful API, Git, Docker.', 
 'Design and develop RESTful APIs. Build responsive user interfaces. Optimize application performance. Participate in sprint planning and code reviews.', 
 'Attractive salary and bonuses, Training and development, Flexible remote work, Regular team building', 
 CURDATE(), DATE_ADD(CURDATE(), INTERVAL 45 DAY), 'Active'),
 
-('FE003', 'Frontend Developer', 'Creative Web Studio', 'Da Nang, Vietnam', '$15,000 - $22,000 per year', 'Full-time', 
+('FE003', 'Frontend Developer', 'Group 8', 'Da Nang, Vietnam', '$15,000 - $22,000 per year', 'Full-time', 
 'Frontend developer specialist for web and mobile application projects. Requires creative thinking and good design skills.', 
 '1-2 years of experience with HTML5, CSS3, JavaScript. Knowledge of React or Vue.js. Understanding of UX/UI design principles.', 
 'Convert designs into high-quality HTML/CSS code. Develop reusable components. Ensure responsive design and cross-browser compatibility.', 

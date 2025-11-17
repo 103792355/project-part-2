@@ -35,7 +35,7 @@ if ($conn) {
             [
                 'WD001',
                 'Senior Web Developer',
-                'TechViet Solutions',
+                'Group 8',
                 'Hanoi, Vietnam',
                 '$25,000 - $35,000 per year',
                 'Full-time',
@@ -49,7 +49,7 @@ if ($conn) {
             [
                 'FS002',
                 'Full Stack Developer',
-                'Digital Innovation Corp',
+                'Group 8',
                 'Ho Chi Minh City, Vietnam',
                 '$20,000 - $30,000 per year',
                 'Full-time',
@@ -63,7 +63,7 @@ if ($conn) {
             [
                 'FE003',
                 'Frontend Developer',
-                'Creative Web Studio',
+                'Group 8',
                 'Da Nang, Vietnam',
                 '$15,000 - $22,000 per year',
                 'Full-time',

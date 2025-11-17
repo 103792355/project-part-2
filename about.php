@@ -124,9 +124,11 @@ include 'nav.inc';
 
         <section class="contact-section">
             <h3>Contact Information</h3>
-            <p>If you have any questions about the project, please contact our team members:</p>
+            <p>If you have any questions about the project, please contact our team:</p>
             <ul class="contact-info">
-                <li>📧 Group Email: <a href="mailto:group8.cos10026@example.com">group8.cos10026@example.com</a></li>
+                <li>🏢 Company: <strong>Group 8</strong></li>
+                <li>📧 Group Email: <a href="mailto:group8@student.swin.edu.au">group8@student.swin.edu.au</a></li>
+                <li>📱 Main Contact: (+84) 0362406812</li>
                 <li>👨‍💻 Pham Hai Duong (Leader): 0362406812</li>
                 <li>👨‍💻 Doan Viet Anh: 0834085607</li>
                 <li>👨‍💼 Nguyen Tuan Minh: 0988138303</li>
